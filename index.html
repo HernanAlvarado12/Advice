@@ -24,19 +24,18 @@
     <body>
         
         <main class ="w-full h-screen flex items-center justify-center bg-blue-200">
-            <section class ="w-90 mx-auto py-3 px-2 text-center relative rounded-md bg-blue-100">
-                <h2 class ="text-green text-xs">ADVICE # 117</h2>
-                <p class ="my-2 text-base text-white font-extrabold ">
-                    "It is easy to sit up and take notice, what's difficult is getting up and taking action."
-                </p>
+            <section class ="w-90 max-w-3xl mx-auto py-3 px-2 text-center relative rounded-lg bg-blue-100">
+                <h2 class ="text-green text-xs" id ="idMessage"></h2>
+                <p class ="my-2 text-base text-white font-extrabold" id ="contentMessage"></p>
                 <picture>
                     <source media ="(min-width: 900px)" srcset ="./assets/divider-desktop.svg">
-                    <img class ="mx-auto mb-3" src ="./assets/divider-mobile.svg" alt ="img of divider">
+                    <img class ="mx-auto mb-3 cursor-pointer" src ="./assets/divider-mobile.svg" alt ="img of divider">
                 </picture>
-                <span class ="w-6 h-6 mx-auto flex items-center justify-center absolute -bottom-3 inset-x-0 rounded-full bg-green after:content-[''] after:w-full after:h-full after:absolute after:bg-[url('../assets/dice.svg')] after:bg-no-repeat after:bg-center"></span>
+                <span class ="w-6 h-6 mx-auto flex items-center justify-center text-green absolute -bottom-3 inset-x-0 cursor-pointer rounded-full bg-green after:content-[''] after:w-full after:h-full after:absolute after:bg-[url('../assets/dice.svg')] after:bg-no-repeat after:bg-center hover:shadow-icon"></span>
             </section>
         </main>
 
+        <script src ="./model.js"></script>
     </body>
 
 </html>

@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./*.{html,js}'],
+  future: {
+    hoverOnlyWhenSupported: true    
+  },
   theme: {
     extend: {
       spacing: {
@@ -39,6 +42,9 @@ module.exports = {
           100: 'hsl(217, 19%, 24%)',
           200: 'hsl(218, 23%, 16%)'
         }
+      },
+      boxShadow: {
+        icon: '0 0 3rem, 0 0 4rem hsl(218, 23%, 16%)'
       }
     },
   },
