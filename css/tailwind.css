@@ -537,10 +537,6 @@ html {
   right: 0px;
 }
 
-.-top-3 {
-  top: -3rem;
-}
-
 .-bottom-3 {
   bottom: -3rem;
 }
@@ -553,18 +549,6 @@ html {
 .my-2 {
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-
-.mt-2 {
-  margin-top: 2rem;
-}
-
-.mb-1 {
-  margin-bottom: 1rem;
-}
-
-.mb-1\.5 {
-  margin-bottom: 1.5rem;
 }
 
 .mb-3 {
@@ -595,6 +579,14 @@ html {
   width: 100%;
 }
 
+.max-w-3xl {
+  max-width: 48rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .items-center {
   align-items: center;
 }
@@ -607,8 +599,8 @@ html {
   border-radius: 9999px;
 }
 
-.rounded-md {
-  border-radius: 0.8rem;
+.rounded-lg {
+  border-radius: 1rem;
 }
 
 .bg-blue-100 {
@@ -624,10 +616,6 @@ html {
 .bg-green {
   --tw-bg-opacity: 1;
   background-color: hsl(150 100% 66% / var(--tw-bg-opacity));
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
 }
 
 .px-2 {
@@ -676,59 +664,14 @@ html {
   height: 100%;
 }
 
-.after\:h-4::after {
-  content: var(--tw-content);
-  height: 4rem;
-}
-
-.after\:h-2::after {
-  content: var(--tw-content);
-  height: 2rem;
-}
-
-.after\:h-3::after {
-  content: var(--tw-content);
-  height: 3rem;
-}
-
 .after\:w-full::after {
   content: var(--tw-content);
   width: 100%;
 }
 
-.after\:w-4::after {
-  content: var(--tw-content);
-  width: 4rem;
-}
-
-.after\:w-2::after {
-  content: var(--tw-content);
-  width: 2rem;
-}
-
-.after\:w-3::after {
-  content: var(--tw-content);
-  width: 3rem;
-}
-
-.after\:bg-\[url\(\'\.\/assets\/dice\.svg\'\)\]::after {
-  content: var(--tw-content);
-  background-image: url('./assets/dice.svg');
-}
-
 .after\:bg-\[url\(\'\.\.\/assets\/dice\.svg\'\)\]::after {
   content: var(--tw-content);
   background-image: url('../assets/dice.svg');
-}
-
-.after\:bg-contain::after {
-  content: var(--tw-content);
-  background-size: contain;
-}
-
-.after\:bg-cover::after {
-  content: var(--tw-content);
-  background-size: cover;
 }
 
 .after\:bg-center::after {
@@ -746,32 +689,10 @@ html {
   content: var(--tw-content);
 }
 
-.after\:content-\[url\(\)\]::after {
-  --tw-content: url();
-  content: var(--tw-content);
-}
-
-.after\:content-\[url\(\'\.\/assets\(\)\'\)\]::after {
-  --tw-content: url('./assets()');
-  content: var(--tw-content);
-}
-
-.after\:content-\[url\(\'\.\/assets\/dice\.svg\'\)\]::after {
-  --tw-content: url('./assets/dice.svg');
-  content: var(--tw-content);
-}
-
-.after\:content-\[\'X\'\]::after {
-  --tw-content: 'X';
-  content: var(--tw-content);
-}
-
-.after\:content-\[\'center\'\]::after {
-  --tw-content: 'center';
-  content: var(--tw-content);
-}
-
-.after\:content-none::after {
-  --tw-content: none;
-  content: var(--tw-content);
+@media (hover: hover) and (pointer: fine) {
+  .hover\:shadow-icon:hover {
+    --tw-shadow: 0 0 3rem, 0 0 4rem hsl(218, 23%, 16%);
+    --tw-shadow-colored: 0 0 3rem var(--tw-shadow-color), 0 0 4rem var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
 }
