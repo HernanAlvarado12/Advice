@@ -18,15 +18,13 @@ const request = async () => {
 
 }
 
+document.addEventListener('DOMContentLoaded', request)
 document.addEventListener('click', event => {
     if(event.target.matches('span.w-6.h-6')) {
         request()
     }
 })
 
-document.addEventListener('DOMContentLoaded', () => {
-    request()
-})
 
 
 
