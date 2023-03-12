@@ -523,3 +523,255 @@ html {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.inset-x-0 {
+  left: 0px;
+  right: 0px;
+}
+
+.-top-3 {
+  top: -3rem;
+}
+
+.-bottom-3 {
+  bottom: -3rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-1\.5 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-3 {
+  margin-bottom: 3rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-6 {
+  height: 6rem;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-6 {
+  width: 6rem;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.rounded-md {
+  border-radius: 0.8rem;
+}
+
+.bg-blue-100 {
+  --tw-bg-opacity: 1;
+  background-color: hsl(217 19% 24% / var(--tw-bg-opacity));
+}
+
+.bg-blue-200 {
+  --tw-bg-opacity: 1;
+  background-color: hsl(218 23% 16% / var(--tw-bg-opacity));
+}
+
+.bg-green {
+  --tw-bg-opacity: 1;
+  background-color: hsl(150 100% 66% / var(--tw-bg-opacity));
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.px-2 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-3 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-base {
+  font-size: 2.4rem;
+}
+
+.text-xs {
+  font-size: 1.4rem;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.text-green {
+  --tw-text-opacity: 1;
+  color: hsl(150 100% 66% / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.after\:absolute::after {
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.after\:h-full::after {
+  content: var(--tw-content);
+  height: 100%;
+}
+
+.after\:h-4::after {
+  content: var(--tw-content);
+  height: 4rem;
+}
+
+.after\:h-2::after {
+  content: var(--tw-content);
+  height: 2rem;
+}
+
+.after\:h-3::after {
+  content: var(--tw-content);
+  height: 3rem;
+}
+
+.after\:w-full::after {
+  content: var(--tw-content);
+  width: 100%;
+}
+
+.after\:w-4::after {
+  content: var(--tw-content);
+  width: 4rem;
+}
+
+.after\:w-2::after {
+  content: var(--tw-content);
+  width: 2rem;
+}
+
+.after\:w-3::after {
+  content: var(--tw-content);
+  width: 3rem;
+}
+
+.after\:bg-\[url\(\'\.\/assets\/dice\.svg\'\)\]::after {
+  content: var(--tw-content);
+  background-image: url('./assets/dice.svg');
+}
+
+.after\:bg-\[url\(\'\.\.\/assets\/dice\.svg\'\)\]::after {
+  content: var(--tw-content);
+  background-image: url('../assets/dice.svg');
+}
+
+.after\:bg-contain::after {
+  content: var(--tw-content);
+  background-size: contain;
+}
+
+.after\:bg-cover::after {
+  content: var(--tw-content);
+  background-size: cover;
+}
+
+.after\:bg-center::after {
+  content: var(--tw-content);
+  background-position: center;
+}
+
+.after\:bg-no-repeat::after {
+  content: var(--tw-content);
+  background-repeat: no-repeat;
+}
+
+.after\:content-\[\'\'\]::after {
+  --tw-content: '';
+  content: var(--tw-content);
+}
+
+.after\:content-\[url\(\)\]::after {
+  --tw-content: url();
+  content: var(--tw-content);
+}
+
+.after\:content-\[url\(\'\.\/assets\(\)\'\)\]::after {
+  --tw-content: url('./assets()');
+  content: var(--tw-content);
+}
+
+.after\:content-\[url\(\'\.\/assets\/dice\.svg\'\)\]::after {
+  --tw-content: url('./assets/dice.svg');
+  content: var(--tw-content);
+}
+
+.after\:content-\[\'X\'\]::after {
+  --tw-content: 'X';
+  content: var(--tw-content);
+}
+
+.after\:content-\[\'center\'\]::after {
+  --tw-content: 'center';
+  content: var(--tw-content);
+}
+
+.after\:content-none::after {
+  --tw-content: none;
+  content: var(--tw-content);
+}
