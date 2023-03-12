@@ -1,0 +1,30 @@
+{
+  "name": "advicegeneratortailwind",
+  "version": "1.0.0",
+  "description": "clone web",
+  "main": "model.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./css/mobile.css -o ./css/tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HernanAlvarado12/Advice.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "tailwindcss",
+    "js",
+    "vanillajs"
+  ],
+  "type": "module",
+  "author": "Hernan Alvarado<hernanvid123@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HernanAlvarado12/Advice/issues"
+  },
+  "homepage": "https://github.com/HernanAlvarado12/Advice#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
